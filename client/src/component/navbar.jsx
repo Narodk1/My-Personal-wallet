@@ -1,6 +1,11 @@
-const Navbar = () => {
+import { HiMenuAlt4 } from 'react-icons/hi';
+ import { AiOutlineClose } from 'react-icons/ai';
+function Navbar() {
     return (
-        <h1>Navbar</h1>
+        <div>
+        <HiMenuAlt4 />
+        <span>Cliquez pour ouvrir le menu</span>
+      </div>
     );
 }
 export default Navbar;
