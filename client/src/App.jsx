@@ -1,11 +1,15 @@
-import { navbar , Welcome , Footer , Service , Transaction } from './component';
-const App=() => {
+import { navbar, Welcome, Footer, Service, Transaction } from './component';
+const App = () => {
   return (
     <div className='App'>
-      <h1 className="text-3xl font-blond underline">
-        hello world!
-      </h1>
-    </div>     
-  )
+     
+ 
+      <navbar />
+      <Service />
+      <Transaction />
+      <Welcome />
+      <Footer />
+</div>
+  );
 }
-export default App
+export default App;
