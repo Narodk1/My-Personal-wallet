@@ -1,4 +1,3 @@
-/* */
 import { Navbar, Welcome, Footer, Service, Transaction } from './component';
 const App = () => {
   return (
@@ -8,7 +7,7 @@ const App = () => {
       <Transaction />
       <Welcome />
       <Footer />
-</div>
+    </div>
 );
 }
 export default App;
