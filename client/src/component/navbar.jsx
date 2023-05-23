@@ -10,6 +10,7 @@ const Navbar = () => {
             <div className="md:flex-[0.5] flex-initial justify-center items-center 	">
               <img src={'../../images/logo.png'} alt="logo" className='w-32 cursor pointer'/>
             </div>
+            <div className=''></div>
          
         </nav>
     );
