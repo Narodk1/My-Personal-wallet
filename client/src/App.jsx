@@ -14,7 +14,6 @@ const App = () => {
         connectWallet={connectWallet}
         currentAccount={currentAccount}
         shortenAddress={shortenAddress}
-        // autres props nécessaires
       />
       <Service />
       <Transaction />
